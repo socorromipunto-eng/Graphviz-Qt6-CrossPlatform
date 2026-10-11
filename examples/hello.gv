@@ -1,0 +1,6 @@
+digraph GVQ6_Test {
+    graph [rankdir=LR, label="Graphviz + Qt6 smoke test", labelloc=t];
+    node [shape=box, style="rounded,filled", fillcolor="lightblue"];
+    Graphviz -> Qt6 -> GVEdit -> PNG;
+    PNG [fillcolor="lightgreen"];
+}

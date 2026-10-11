@@ -1,0 +1,21 @@
+# Do not accidentally commit binary/source/vendor/build/evidence material
+*.dll
+*.exe
+*.lib
+*.pdb
+*.obj
+*.zip
+*.tar
+*.gz
+*.png
+*.jpg
+*.log
+config[0-9]*
+*.user
+.vs/
+build/
+06_Build/
+01_Source/
+02_Dependencies/
+08_Evidence/
+local-evidence-NOT-FOR-PUBLICATION/
